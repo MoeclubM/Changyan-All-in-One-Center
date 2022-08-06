@@ -19,7 +19,7 @@
         <a href="javascript:;" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#left-drawer', swipe: true}">
           <i class="mdui-icon material-icons">menu</i>
         </a>
-        <a href="./" class="mdui-typo-title">114514</a>
+        <a href="./index.html" class="mdui-typo-title">IFlytek Hello!</a>
         <div class="mdui-toolbar-spacer"></div>
         <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple" mdui-tooltip="{content: '刷新'}"><i class="mdui-icon material-icons">refresh</i></a>
 		<a href="https://github.com/QYTC233" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '项目地址'}">
@@ -34,10 +34,11 @@
     </a>
       </div>
       <div class="mdui-tab mdui-color-theme" mdui-tab>
+        <a href="#home" class="mdui-ripple mdui-ripple-white">首页</a>
         <a href="#jump" class="mdui-ripple mdui-ripple-white">跳转</a>
         <a href="#tools" class="mdui-ripple mdui-ripple-white">工具</a>
         <a href="#games" class="mdui-ripple mdui-ripple-white">游戏</a>
-        <a href="#videos" class="mdui-ripple mdui-ripple-white">视频</a>
+        <a href="#about" class="mdui-ripple mdui-ripple-white">关于</a>
       </div>
     </div>
 
@@ -46,19 +47,9 @@
       <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
       <div class="mdui-list-item mdui-ripple">
             <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
-            <a href="./index.html" class="mdui-list-item-content">Home</a>
+            <a href="./index.html" class="mdui-list-item-content">主页</a>
       </div>
-          <div class="mdui-collapse-item ">
-        <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
-            <div class="mdui-list-item-content">开始</div>
-            <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-        </div>
-        <div class="mdui-collapse-item-body mdui-list">
-          <a href="./tutorial" class="mdui-list-item mdui-btn mdui-ripple ">教程</a>
-          <a href="./about" class="mdui-list-item mdui-btn mdui-ripple ">关于</a>
-        </div>
-      </div>  
+      
       <div class="mdui-collapse-item ">
         <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
           <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">apps</i>
@@ -66,34 +57,42 @@
             <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
         </div>
         <div class="mdui-collapse-item-body mdui-list">
-          
+          <a href="https://home.xf-yun.cn" class="mdui-list-item mdui-btn mdui-ripple ">XFYUN在线服务</a>
           <a href="https://www.zhixue.com" class="mdui-list-item mdui-btn mdui-ripple ">智学网</a>
-                  
+          <a href="https://www.changyan.com" class="mdui-list-item mdui-btn mdui-ripple ">畅言智慧课堂</a>
+          <a href="https://www.iflytek.com" class="mdui-list-item mdui-btn mdui-ripple ">科大讯飞</a>
+          <a href="https://www.iflytek.com" class="mdui-list-item mdui-btn mdui-ripple ">科大讯飞</a>
         </div>
       </div>  
       </div>
   </div>
 
+  <div id="home">
+    <div class="mdui-container-fluid mdui-typo">
+      <div class="" align="center">
+        <h1 style="font-size: xx-large;">IFlytek NMSL!</h1>
+        <p>点击左上角/点击上方TAB栏来开始</p>
+      </div>
+      <br>
+    </div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <div id="about">
+    <div class="mdui-container-fluid mdui-typo">
+      <div class="">
+        <h1>关于</h1>
+      </div>
+      <br>
+      <p>本页面仅供学习交流使用，请勿用于其他任何用途，违者后果自负。使用时请遵守相关源码开源协议。</p>
+    </div>
+</div>
 
 <div id="jump">
     <div class="mdui-container-fluid mdui-typo">
       <div class="">
         <h1>跳转</h1>
       </div>
+    <br>
       <div class="mdui-row">
         <div class="mdui-col-xs-3">
           <div class="mdui-textfield mdui-textfield-floating-label">
@@ -102,83 +101,39 @@
         </div>
       </div>
 
-      <button
-        class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent"
-        onclick="location.href=document.getElementById('name').value"
-      >
-        Access
-      </button>
+      <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" onclick="location.href=document.getElementById('name').value">Access</button>
     </div>
 </div>
-
-
-
-
-
-
 
 <div id="tools">
   <div class="mdui-container-fluid mdui-typo">
     <div class="">
       <h1>工具</h1>
     </div>
-
+    <br>
     <div class="mdui-card mdui-col-xs-3">
-
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      
-    
       <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
       <div class="mdui-card-media">
-    
         <!-- 卡片中可以包含一个或多个菜单按钮 -->
         <div class="mdui-card-menu">
           
         </div>
       </div>
-    
       <!-- 卡片的标题和副标题 -->
       <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">Geogebra</div>
         <div class="mdui-card-primary-subtitle">风靡世界, 过亿师生沉迷使用的免费数学软件</div>
       </div>
-    
       <!-- 卡片的内容 -->
       <div class="mdui-card-content">Geogebra(动态几何画板)是一个开源、免费的动态数学软件,特别适合于高中、初中、小学、中职、中专教师、师范生使用,可以进行几何作图、函数绘图、代数演算、动态计算、微积分、概率统计等</div>
-    
       <!-- 卡片的按钮 -->
       <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" href="./tools/geogebra/index.html">进入</a>
-        
       </div>
-    
     </div>
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div id="games">
@@ -186,169 +141,96 @@
     <div class="">
       <h1>游戏</h1>
     </div>
-
+    <br>
     <div class="mdui-card mdui-col-xs-3">
-
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      
-    
       <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
       <div class="mdui-card-media">
-    
         <!-- 卡片中可以包含一个或多个菜单按钮 -->
         <div class="mdui-card-menu">
           
         </div>
       </div>
-    
       <!-- 卡片的标题和副标题 -->
       <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">2048</div>
         <div class="mdui-card-primary-subtitle">合成2048！</div>
       </div>
-    
       <!-- 卡片的内容 -->
       <div class="mdui-card-content">一款益智小游戏</div>
-    
       <!-- 卡片的按钮 -->
       <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" href="./games/2048/index.html">进入</a>
-        
       </div>
-    
     </div>
 
-
-
     <div class="mdui-card mdui-col-xs-3">
-
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      
-    
       <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
       <div class="mdui-card-media">
-    
         <!-- 卡片中可以包含一个或多个菜单按钮 -->
         <div class="mdui-card-menu">
           
         </div>
       </div>
-    
       <!-- 卡片的标题和副标题 -->
       <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">神庙逃亡</div>
         <div class="mdui-card-primary-subtitle">H5版本</div>
       </div>
-    
       <!-- 卡片的内容 -->
       <div class="mdui-card-content">一款经典跑酷冒险游戏</div>
-    
       <!-- 卡片的按钮 -->
       <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" href="./games/smtw/index.html">进入</a>
-        
       </div>
-    
     </div>
 
-
-
-
-
-
     <div class="mdui-card mdui-col-xs-3">
-
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      
-    
       <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
       <div class="mdui-card-media">
-    
         <!-- 卡片中可以包含一个或多个菜单按钮 -->
         <div class="mdui-card-menu">
           
         </div>
       </div>
-    
       <!-- 卡片的标题和副标题 -->
       <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">五子棋</div>
         <div class="mdui-card-primary-subtitle">h5在线五子棋！</div>
       </div>
-    
       <!-- 卡片的内容 -->
       <div class="mdui-card-content">页面有点古老 不过能玩</div>
-    
       <!-- 卡片的按钮 -->
       <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" href="./games/wuziqi/index.html">进入</a>
-        
       </div>
-    
     </div>
 
-
-
-
-
-
-
-
-
     <div class="mdui-card mdui-col-xs-3">
-
       <!-- 卡片头部，包含头像、标题、副标题 -->
-      
-    
       <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
       <div class="mdui-card-media">
-    
         <!-- 卡片中可以包含一个或多个菜单按钮 -->
         <div class="mdui-card-menu">
-          
+
         </div>
       </div>
-    
       <!-- 卡片的标题和副标题 -->
       <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">植物大战僵尸js版</div>
         <div class="mdui-card-primary-subtitle">童年回忆 爷青回）</div>
       </div>
-    
       <!-- 卡片的内容 -->
-      <div class="mdui-card-content">页面有点古老 不过能玩</div>
-    
+      <div class="mdui-card-content">页面有点怪</div>
       <!-- 卡片的按钮 -->
       <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" href="./games/jspvz/index.html">进入</a>
-        
       </div>
-    
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>    
-
-
-
-
 
 <footer class="mdui-typo">
       <ul class="mdui-list mdui-text-left">
